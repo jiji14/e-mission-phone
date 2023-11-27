@@ -108,7 +108,7 @@ jobs:
         
     - name: Waiting until appium server executed
       run: sleep 10  
-    #test
+  
     - name: Android appium test run
       shell: bash -l {0}
       run: |
